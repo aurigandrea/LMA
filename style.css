@@ -81,5 +81,14 @@ background-repeat: no-repeat;
   padding-bottom: 25px;
   font-family: Arial, Helvetica, sans-serif;
 
-
 }
+iframe {
+            position: relative;
+            top: 50; left: 100; width: 1000; height: 600;
+            border: outset; padding-top: 50px;
+        }
+#map {
+  padding-top: 50px;
+}
+
+
