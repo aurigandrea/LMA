@@ -14,7 +14,10 @@ body {
   transition: 0.5s;
   padding-top: 60px;
 }
-
+.sidepanel p {
+  color: white;
+  padding-left: 10px;
+}
 .sidepanel a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -34,7 +37,41 @@ body {
   right: 25px;
   font-size: 36px;
 }
+.sidepanel2  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 250px;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidepanel2 p {
+  color: white;
+  padding-left: 10px;
+}
+.sidepanel2 a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
 
+.sidepanel2 a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel2 .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
 .openbtn {
   font-size: 20px;
   cursor: pointer;
